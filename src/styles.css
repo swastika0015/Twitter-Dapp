@@ -24,3 +24,17 @@ body {
     border-left-color: #09f;
     animation: spin 1s linear infinite;
   }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: #1da1f2;
+    text-align: center;
+    margin-bottom: 20px;
+  }
