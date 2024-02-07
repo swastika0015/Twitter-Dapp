@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    color: #14171a;
+    padding: 20px;
+  }
+  
+  .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #userAddress {
+    text-transform: uppercase;
+    color: #1da1f2;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s linear infinite;
+  }
